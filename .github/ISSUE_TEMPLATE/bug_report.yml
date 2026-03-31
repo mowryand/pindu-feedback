@@ -18,7 +18,14 @@ body:
       placeholder: |
         1. Open ...
         2. Click ...
-        3. See error ...
+    validations:
+      required: false
+
+  - type: input
+    id: pindu-version
+    attributes:
+      label: Pindu version
+      placeholder: e.g. 1.14.0
     validations:
       required: false
 
